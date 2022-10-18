@@ -1,0 +1,121 @@
+.home-container {
+  margin-top: -20px;
+  text-align: center;
+  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+}
+.home-iphone14 {
+  font-weight: bold;
+  background-color: #fbfbfd;
+  height: 642px;
+}
+
+.home-iphone14_container {
+  z-index: 2;
+  position: relative;
+  top: 4.5rem;
+  color: black;
+  text-decoration: none !important;
+}
+
+.home-iphone14_heading,
+.home-iphone14pro_heading {
+  font-size: 3.25rem;
+  margin: 0;
+}
+
+.home-iphone14Pro_heading {
+  margin-top: 20px;
+  color: white;
+}
+
+.home-iphone14_sub-heading,
+.home-iphone14Pro_sub-heading {
+  font-size: 28px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: 400;
+  letter-spacing: 0.004rem;
+  line-height: 1.10722;
+}
+
+.home-iphone14Pro_sub-heading {
+  color: white;
+}
+
+.home-iphone14_link,
+.home-iphone14pro_link {
+  display: flex;
+  justify-content: center;
+}
+
+.home-iphone14_link p,
+.home-iphone14pro_link p {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 15px;
+}
+
+.home-iphone14_link p a,
+.home-iphone14Pro_link p a {
+  color: #06c;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.home-iphone14Pro_link p a {
+  color: #2997ff !important;
+}
+
+.home-iphone14_icon_rightArrow {
+  vertical-align: bottom;
+}
+
+.home-iphone14_link p a:hover,
+.home-iphone14Pro_link p a:hover {
+  text-decoration: underline;
+}
+.home-iphone14_img {
+  position: relative;
+  z-index: 1;
+  top: -150px;
+  height: 624px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../../../images/heroes/iphone-14/iphone14.jpg');
+}
+
+/* iPhone 14 Pro */
+.home-iphone14pro {
+  background-color: black;
+  margin-top: -20px;
+  height: 630px;
+}
+
+.home-iphone14pro_img {
+  position: relative;
+  z-index: 1;
+  top: -150px;
+  height: 624px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../../../images/heroes/iphone-14-pro/iphone14pro.jpg');
+}
+
+.home-iphone14Pro_container {
+  position: relative;
+  z-index: 2 !important;
+  top: 50px;
+  color: white !important;
+}
+
+.home-iphone14Pro_heading {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+}
+
+.home-iphone14_sub-heading {
+}
