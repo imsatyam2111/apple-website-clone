@@ -56,8 +56,7 @@
   column-gap: 15px;
 }
 
-.home-iphone14_link p a,
-.home-iphone14Pro_link p a {
+.home-container a {
   color: #06c;
   text-decoration: none;
   font-size: 21px;
@@ -68,12 +67,11 @@
   color: #2997ff !important;
 }
 
-.home-iphone14_icon_rightArrow {
+.home-icon_rightArrow {
   vertical-align: bottom;
 }
 
-.home-iphone14_link p a:hover,
-.home-iphone14Pro_link p a:hover {
+.home-container a:hover {
   text-decoration: underline;
 }
 .home-iphone14_img {
@@ -117,5 +115,158 @@
   margin-bottom: 0;
 }
 
-.home-iphone14_sub-heading {
+.home-productCards {
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px 10px;
+  margin-top: 10px;
+}
+
+.home-watchUltra {
+  /* background-color: lightgray; */
+  height: 566px;
+}
+
+.home-watchUltra_container {
+  position: relative;
+  top: 40px;
+  z-index: 2;
+}
+
+.home-watchUltra_sub-heading {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.home-watchUltra_link p a {
+  font-size: 17px;
+}
+
+.home-watchUltra_img {
+  margin: 0;
+  position: relative;
+  top: -210px;
+  z-index: 1;
+  height: 596px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 850px 580px;
+  background-image: url('../../../images/heroes/apple-watch-ultra/watch-ultra.jpg');
+}
+
+.home-watchS8 {
+  background-color: black;
+  height: 566px;
+}
+
+.home-watchS8_container {
+  position: relative;
+  top: 40px;
+  z-index: 2;
+}
+
+.home-watchS8_sub-heading {
+  font-size: 21px;
+  font-weight: 400;
+  color: white;
+}
+
+.home-watchS8_link p a {
+  font-size: 17px;
+  color: #2997ff;
+}
+
+.home-watchS8_img {
+  margin: 0;
+  position: relative;
+  top: -200px;
+  z-index: 1;
+  height: 616px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 850px 580px;
+  background-image: url('../../../images/heroes/apple-watch-series8/promo_apple_watch_series_8__ch7rexplmihe_large.jpg');
+}
+
+.home-airpodsPro {
+  background-color: black;
+  height: 566px;
+}
+
+.home-airpodsPro_container {
+  position: relative;
+  top: 20px;
+  z-index: 2;
+}
+
+.home-airpodsPro_heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0;
+}
+
+.home-airpodsPro_sub-heading {
+  margin-top: 5px;
+  font-size: 21px;
+  font-weight: 400;
+  color: white;
+}
+
+.home-airpodsPro_link p a {
+  font-size: 17px;
+  color: #2997ff;
+}
+
+.home-airpodsPro_img {
+  margin: 0;
+  position: relative;
+  top: -150px;
+  z-index: 1;
+  height: 616px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1262px 580px;
+  background-image: url('../../../images/heroes/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_large.jpg');
+}
+.home-appleCards {
+  height: 616px;
+  background-color: #fbfbfd;
+}
+
+.home-appleCards_container {
+  position: relative;
+  top: 20px;
+  z-index: 2;
+}
+
+.home-appleCards_heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0;
+}
+
+.home-appleCards_sub-heading {
+  margin-top: 5px;
+  font-size: 21px;
+  font-weight: 400;
+  color: black;
+}
+
+.home-appleCards_link p a {
+  font-size: 17px;
+}
+
+.home-appleCards_img {
+  margin: 0;
+  position: relative;
+  top: -195px;
+  z-index: 1;
+  height: 616px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1262px 580px;
+  background-image: url('../../../images/heroes/apple-card/tile__cauwwcyyn9hy_large.jpg');
 }
