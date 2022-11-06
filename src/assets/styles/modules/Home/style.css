@@ -270,3 +270,78 @@
   background-size: 1262px 580px;
   background-image: url('../../../images/heroes/apple-card/tile__cauwwcyyn9hy_large.jpg');
 }
+
+.slide-1 {
+  background-image: url('../../../images/heroes/apple-tv/1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1200px 580px;
+  /* background-size: 0px auto; */
+}
+.slide-2 {
+  background-image: url('../../../images/heroes/apple-tv/2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: '850px 580px';
+}
+.slide-3 {
+  background-image: url('../../../images/heroes/apple-tv/3.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: '850px 580px';
+}
+.slide-4 {
+  background-image: url('../../../images/heroes/apple-tv/4.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: '850px 580px';
+}
+.slide-5 {
+  background-image: url('../../../images/heroes/apple-tv/5.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: '850px 580px';
+}
+.slide-6 {
+  background-image: url('../../../images/heroes/apple-tv/6.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: '850px 580px';
+}
+.slide-7 {
+  background-image: url('../../../images/heroes/apple-tv/7.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: '850px 580px';
+}
+.slide-8 {
+  background-image: url('../../../images/heroes/apple-tv/8.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: '850px 580px'; */
+}
+.slide-9 {
+  background-image: url('../../../images/heroes/apple-tv/9.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: '850px 580px'; */
+}
+.slide-10 {
+  background-image: url('../../../images/heroes/apple-tv/10.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: '850px 580px'; */
+}
+.slide-11 {
+  background-image: url('../../../images/heroes/apple-tv/11.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: '850px 580px'; */
+}
+
+/* .BrainhubCarouselItem,
+.slide {
+  min-width: 1200px !important;
+  width: 1200px !important;
+  max-width: 1200px !important;
+} */
