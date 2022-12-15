@@ -1,0 +1,21 @@
+.footer-container {
+    padding: 16px;
+    color: #6e6e73;
+    font-size: 12px;
+}
+
+.footer-text {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.footer-container a {
+    color: #424245;
+    text-decoration: none;
+}
+.footer-container a:hover {
+    text-decoration: underline;
+}

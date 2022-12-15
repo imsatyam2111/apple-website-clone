@@ -1,54 +1,28 @@
-import Carousel, { Dots, slidesToShowPlugin } from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
-import { useState } from 'react';
+import Carousel from 'react-elastic-carousel';
+
 
 export const AppleTv = () => {
-  const [value, setValue] = useState(0);
-
-  const slides = Array(11)
-    .fill('../../../assets/images/heroes/apple-tv/')
-    .map((el, index) => (
-      <div
-        className={`slide slide-${index + 1}`}
-        style={{
-          width: 800,
-          height: 500,
-          margin: '5px 24px',
-        }}
-      >
-        Hey {index + 1}
-      </div>
-    ));
-
-  const onDotChange = (val) => {
-    setValue(val);
-  };
 
   return (
     <>
-      <Carousel
-        plugins={[
-          'autoplay',
-          'clickToChange',
-          'centered',
-          'infinite',
-          // 'fastSwipe',
-          {
-            resolve: slidesToShowPlugin,
-            options: {
-              numberOfSlides: 2,
-              interval: 3000,
-            },
-          },
-        ]}
-        // draggable={false}
-        value={value}
-        slides={slides}
-        // onChange={onDotChange}
-      />
-      {/* {slides.map((el) => el)}
-      </Carousel> */}
-      <Dots value={value} onChange={onDotChange} number={slides.length} />
+      <Carousel  itemsToScroll={1} itemsToShow={1} onChange={(currentItem, pageIndex) => {
+        console.log(currentItem, pageIndex)
+        // setValue(currentItem.index + 2)
+      }}>
+        {Array(11).fill('../../../assets/images/heroes/apple-tv/').map((el, index) => (
+          <div
+            key={index}
+            // data-slide={index+1}
+            className={`slide-${index + 1}`}
+            style={{
+              width: 1200,
+              height: 500,
+              margin: '5px 24px',
+            }}
+          >
+          </div>
+        ))}
+      </Carousel>
     </>
   );
 };

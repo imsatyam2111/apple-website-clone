@@ -19,7 +19,7 @@ export const Home = () => {
         <AirpodsPro />
         <AppleCards />
       </div>
-      <div>
+      <div style={{ marginBottom: '16px', }}>
         <AppleTv />
       </div>
     </div>
