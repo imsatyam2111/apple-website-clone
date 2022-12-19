@@ -1,4 +1,5 @@
 import "../../assets/styles/modules/Footer/style.css";
+import { FooterLinks } from "./FooterLinks";
 
 export const Footer = () => {
   return (
@@ -50,6 +51,7 @@ export const Footer = () => {
           Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
         </p>
       </div>
+      <FooterLinks />
     </div>
   );
 };

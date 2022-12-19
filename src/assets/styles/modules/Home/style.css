@@ -352,3 +352,13 @@ button.rec.rec-arrow {
 .rec.rec-arrow:disabled {
   visibility: hidden;
 }
+
+@media (max-width: 769px) {
+  .home-productCards {
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: auto;
+    /* gap: 20px 10px; */
+    margin-top: 10px;
+  }
+}

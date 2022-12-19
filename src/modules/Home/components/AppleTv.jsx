@@ -5,7 +5,7 @@ export const AppleTv = () => {
 
   return (
     <>
-      <Carousel  itemsToScroll={1} itemsToShow={1} onChange={(currentItem, pageIndex) => {
+      <Carousel enableAutoPlay autoPlaySpeed={3000} itemsToScroll={1} itemsToShow={1} onChange={(currentItem, pageIndex) => {
         console.log(currentItem, pageIndex)
         // setValue(currentItem.index + 2)
       }}>

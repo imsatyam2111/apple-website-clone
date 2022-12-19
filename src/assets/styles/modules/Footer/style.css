@@ -2,6 +2,7 @@
     padding: 16px;
     color: #6e6e73;
     font-size: 12px;
+    height: auto;
 }
 
 .footer-text {
@@ -18,4 +19,68 @@
 }
 .footer-container a:hover {
     text-decoration: underline;
+}
+
+.footer-links {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 12px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.link-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.link {
+    color: #424245;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-links-small {
+    display: none;
+}
+
+@media (max-width: 835px) {
+    .footer-text {
+        width: 100%;
+    }
+
+    .footer-links {
+        display: none;
+    }
+    .footer-links-small {
+        display: block;
+    }
+    .link-group-small {
+        padding: 8px;
+        border-bottom: 1px solid #d2d2d7;
+        height: 40px;
+        overflow: hidden;
+        transition: all ease-in-out 3s;
+    }
+
+    .link-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .actionButton {
+        font-size: 16px;
+        cursor: pointer;
+    }
 }

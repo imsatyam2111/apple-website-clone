@@ -1,3 +1,7 @@
+nav {
+  z-index: 1000000000 !important;
+}
+
 .navbar {
   background-color: rgb(0, 0, 0, 0.8);
   backdrop-filter: blur(2rem);
@@ -13,6 +17,11 @@
   margin: 0;
   padding-left: 0;
   display: flex;
+}
+
+nav li {
+  list-style: none;
+  padding-inline-start: 0;
 }
 
 .nav-items {
@@ -35,4 +44,117 @@
 .icon-apple,
 .icon-search {
   color: #f5f5f7;
+}
+
+.navbar-small {
+  display: none;
+}
+
+@media (max-width: 868px) {
+  .navbar-large {
+    display: none;
+  }
+
+  .navbar-small {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    min-height: 50px;
+    height: 50px;
+    padding: 10px;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+
+  .navbar-small.active {
+    min-height: 100vh;
+  }
+
+  .navbar-list-small {
+    margin: 0;
+    display: flex;
+    color: #f5f5f7;
+    justify-content: space-between;
+    padding-left: 0;
+  }
+
+  .bar1, .bar2 {
+    width: 20px;
+    height: 2px;
+    background-color: rgb(119, 111, 111);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .ham-clicked .bar1 {
+    transform: translate(0, 5px) rotate(-45deg);
+  }
+
+  .ham-clicked .bar2 {
+    transform: translate(0, -3px) rotate(45deg);
+  }
+
+  .nav-items-small {
+    list-style: none;
+  }
+
+  .nav-small-contents {
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .navbar-search-small {
+    margin-top: 16px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.24);
+  }
+  
+  .navbar-search-small input {
+    padding: 12px 12px;
+    width: 60%;
+    border-radius: 8px;
+    background-color: #424245;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+  }
+  .navbar-search-small input:focus {
+    outline: none;
+  }
+
+  .navbar-links-small {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-inline-start: 0;
+  }
+
+  .navbar-links-small .nav-items-small {
+    list-style: none;
+    color: #cecece;
+    padding: 9px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.24);
+    cursor: pointer;
+  }
+
+  .navbar-links-small .nav-items-small:last-child {
+    border: none;
+  }
+
+}
+
+@media (max-width: 769px) {
+  .navbar-links-small {
+    width: 100%;
+  }
+
+  .navbar-search-small input {
+    width: 100%;
+  }
+  .navbar-search-small {
+    padding-right: 18px;
+  }
 }
